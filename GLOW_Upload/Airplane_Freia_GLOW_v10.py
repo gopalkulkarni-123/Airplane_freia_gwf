@@ -13,9 +13,9 @@ BATCHSIZE = int(vertices_c.size/3)
 print(BATCHSIZE)
 N_DIM = 3
 cond_dims =(2,)
-data = torch.tensor(vertices_c)
-conditions = torch.tensor(vertices_conditional)
-print(conditions.size())
+#data = torch.tensor(vertices_c)
+#conditions = torch.tensor(vertices_conditional)
+#print(conditions.size())
 epochs = 5
 n_hidden_layers = 512
 #nll_mean = []
